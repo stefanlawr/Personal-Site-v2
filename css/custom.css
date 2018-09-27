@@ -226,3 +226,35 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+/* This is where Skeleton ends */
+
+.middle-align {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* //medium+ screen sizes
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
+
+//small screen sizes
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+    .desktop-only {
+        display:none !important;
+    }
+} */
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  #hide-mobile { display: none; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 992px){
+  #hide-mobile { display: block; }   /* hide it elsewhere */
+}
