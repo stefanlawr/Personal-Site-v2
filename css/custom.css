@@ -240,6 +240,23 @@
   width: 88vw;
   height: 88vh;
 }
+
+/* .title{
+	font-size: 4vmax;
+  }
+	.title-subtext {
+		font-size: 3vh;
+	}
+} */
+
+.down-arrow {
+	display: block;
+  text-align: center;
+	margin: 2.5rem auto 0;
+	max-width: 8rem;
+	max-height: 8rem;
+}
+
 @media screen and (min-width: 0px) and (max-width: 991px) {
   #hide-mobile { display: none; }  /* show it on small screens */
 }
@@ -258,4 +275,23 @@
 }
 #fadein *.load {
   opacity: 1;
+}
+
+/* Transition Animation */
+
+#chevron-circle-down-solid{
+	fill: #111;
+}
+
+a svg:hover #chevron-circle-down-solid,
+a svg:hover #instagram {
+  fill: #999;
+}
+
+a svg #chevron-circle-down-solid,
+a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
