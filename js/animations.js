@@ -1,1 +1,5 @@
-document.querySelector("fadein").children[0].className += " load";
+(
+	() =>{
+		document.querySelector("fadein").children[0].className += " load";
+	}
+)()

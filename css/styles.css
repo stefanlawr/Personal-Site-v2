@@ -1,0 +1,19 @@
+.middle-align {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullscreen{
+  margin: 0px auto;
+  width: 88vw;
+  height: 88vh;
+}
+
+.down-arrow {
+	display: block;
+  text-align: center;
+	margin: 2.5rem auto 0;
+	max-width: 8rem;
+	max-height: 8rem;
+}
