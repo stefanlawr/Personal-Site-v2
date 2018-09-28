@@ -24,3 +24,8 @@
 	background: #fff;
 	width: 100%;
 }
+
+.scroll-container {
+	overflow-y: scroll;
+  scroll-behavior: smooth;
+}
