@@ -29,3 +29,7 @@
 	overflow-y: scroll;
   scroll-behavior: smooth;
 }
+
+.section-padding-top {
+  padding-top: 4rem;
+}
