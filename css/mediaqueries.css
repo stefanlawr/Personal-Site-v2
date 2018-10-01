@@ -9,3 +9,7 @@
 @media screen and (min-width: 992px){
   #hide-mobile { display: block; }   /* hide it elsewhere */
 }
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  #education { text-align: center; }
+}
