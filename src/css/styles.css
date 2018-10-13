@@ -1,0 +1,40 @@
+.middle-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen {
+  margin: 0px auto;
+  width: 88vw;
+  height: 88vh;
+}
+
+.down-arrow {
+  display: block;
+  text-align: center;
+  margin: 2.5rem auto 0;
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  width: 100%;
+}
+
+.scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.section-padding-top {
+  padding-top: 4rem;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}

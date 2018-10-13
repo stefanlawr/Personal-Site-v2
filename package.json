@@ -1,7 +1,26 @@
 {
-  "devDependencies": {
-    "cssnano": "^4.1.4",
-    "node-sass": "^4.9.3",
-    "sass": "^1.14.1"
+  "name": "Personal-Site-v2",
+  "version": "1.0.0",
+  "description": "This is the second personal site I've made. My original personal site was based off of the [Ceevee template.](https://www.styleshout.com/free-templates/ceevee/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nps",
+    "test": "nps test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanlawr/Personal-Site-v2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmaisano/Personal-Site-v2/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "nps": "^5.9.3",
+    "nps-utils": "^1.7.0",
+    "parcel-bundler": "^1.10.3"
   }
 }
