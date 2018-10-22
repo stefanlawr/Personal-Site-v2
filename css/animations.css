@@ -93,17 +93,17 @@
 
 /* Transition Animation */
 
-#icon-fade{
-	fill: #111;
-}
-
-a svg:hover #icon-fade {
-  fill: #999;
-}
-
-a svg #icon-fade {
-  transition: 200ms;
+.icon-color {
+	color: #111;
+	transition: 200ms;
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+}
+.icon-color:hover{
+	transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+	color: #999;
 }
