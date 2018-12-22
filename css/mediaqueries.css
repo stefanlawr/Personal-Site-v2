@@ -17,3 +17,7 @@
 @media screen and (min-width: 0px) and (max-width: 411px) {
   #resize-icons { font-size: 8rem !important; } /* font size for icons */
 }
+
+@media screen and (max-width: 370px) {
+  #hide-fix { display: none; }
+}
