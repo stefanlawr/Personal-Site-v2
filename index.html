@@ -41,33 +41,34 @@
   <!-- Introduction Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container fullscreen">
-    <section class="header">
-      <h2 class="fade-in">Hi, I'm Stefan Strauch.</h2>
-      <p class="fade-in-p">I'm a Computer Science student at Ramapo College of New Jersey.</p>
-    </section>
-
-    <div class="test-grid fade-in-btn">
-      <div>
-        <a href="https://www.linkedin.com/in/stefanstrauch/">
-          <i class="fab fa-linkedin icon-size icon-color" id="resize-icons"></i>
-      </div>
-
-      <div>
-        <a href="https://github.com/stefanlawr">
-          <i class="fab fa-github icon-size icon-color" id="resize-icons"></i>
-      </div>
-
-      <div>
-        <a href="https://www.instagram.com/stefanstrauch/">
-          <i class="fab fa-instagram icon-size icon-color" id="resize-icons"></i>
-      </div>
+    <div class="flex-container">
+      <section class="header">
+        <h2 class="fade-in">Hi, I'm Stefan Strauch.</h2>
+        <p class="fade-in-p">I'm a Computer Science student at Ramapo College of New Jersey.</p>
+      </section>
     </div>
 
+    <div class="flex-container fade-in-btn">
+      <div class="landing-image">
+        <a href="https://www.linkedin.com/in/stefanstrauch/">
+          <i class="fab fa-linkedin landing-image-size icon-color"></i>
+      </div>
+
+      <div class="landing-image">
+        <a href="https://github.com/stefanlawr">
+          <i class="fab fa-github landing-image-size icon-color"></i>
+      </div>
+
+      <div class="landing-image">
+        <a href="https://www.instagram.com/stefanstrauch/">
+          <i class="fab fa-instagram landing-image-size icon-color"></i>
+      </div>
+    </div>
   </div>
 
   <!-- About Me Layout
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container fullscreen">
+  <div class="container ">
     <div class="docs-section" id="about">
       <div class="row middle-align section-padding-top">
         <div class="four columns middle-align" id="hide-mobile">
@@ -120,7 +121,7 @@
   <!-- Code Layout
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="container fullscreen section-padding-top" id="code">
+  <div class="container  section-padding-top" id="code">
     <div class="docs-section">
       <div class="row" style="text-align: center">
         <div class="twelve columns">
@@ -169,7 +170,7 @@
   <!-- Education Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="container fullscreen section-padding-top" id="education">
+  <div class="container section-padding-top" id="education">
     <div class="docs-section section-padding-top">
       <div class="row" style="text-align: center">
         <div class="twelve columns">
@@ -178,11 +179,10 @@
         </div>
       </div>
       <br>
-      <div class="row middle-align">
-        <div class="four columns" id="hide-mobile">
-          <img src="images/Ramapo.png" style="border-radius: 50%; height: 25rem; width: 25rem;">
-        </div>
-        <div class="eight columns">
+
+      <div class="flex-container">
+        <img src="images/Ramapo.png" class="school-image">
+        <div class="school-text">
           <h4 style="margin-bottom: 0">Ramapo College of New Jersey</h4>
           <h6>B.S. in Computer Science, Minor in Math || September 2016 - May 2020</h6>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus sequi cumque ut obcaecati
@@ -190,12 +190,14 @@
             magni.</p>
         </div>
       </div>
+
       <br>
-      <div class="row middle-align">
-        <div class="four columns" id="hide-mobile">
-          <img src="images/MHS.jpg" style="border-radius: 50%; height: 25rem; width: 25rem;">
-        </div>
-        <div class="eight columns">
+
+      <div class="flex-container">
+
+          <img src="images/MHS.jpg" class="school-image">
+
+          <div class="school-text">
           <h4 style="margin-bottom: 0">Mahwah High School</h4>
           <h6>September 2012 - June 2016</h6>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus sequi cumque ut obcaecati
