@@ -22,6 +22,26 @@
   #hide-fix { display: none; }
 }
 
+/* Attempting a landing page fix */
+@media (min-width: 768px) {
+  .title-font {
+   font-size: 6rem;
+  }
+  .subtitle-font {
+    font-size: 2.5rem;
+  }
+  .navbar, .navbar-link {
+    font-size: 1.2rem;
+  }
+  .landing-image-size {
+    padding-top: 15rem;
+    font-size: 18rem !important;
+  }
+  .header {
+    padding-top: 9rem;
+  }
+  
+}
 
 /* New Media Queries */
 @media all and (min-width: 1024px) and (max-width: 1280px) { }

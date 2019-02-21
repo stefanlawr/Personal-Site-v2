@@ -113,7 +113,7 @@
 }
 
 /* Larger than tablet */
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
@@ -139,10 +139,10 @@
     margin-bottom: 0; }
   .navbar-link {
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 35px;
+    margin-right: 2.3rem;
     text-decoration: none;
     line-height: 6.5rem;
     color: #222; }
