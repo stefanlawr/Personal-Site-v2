@@ -23,7 +23,7 @@
 }
 
 /* Attempting a landing page fix */
-@media (min-width: 768px) {
+@media (min-width: 824px) {
   .title-font {
    font-size: 6rem;
   }
